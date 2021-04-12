@@ -1,7 +1,7 @@
 PDDL Project
 ============
 
-PDDL domain and problem files for drone delivery
+PDDL domain and problem files for delivery drone scenario
 
 ## Description
 
