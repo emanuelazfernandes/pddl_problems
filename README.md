@@ -11,7 +11,7 @@ to run the planners do:
 
 2. make a plan:
 
-        cd cleaning_robot
+        cd drone_delivery
         rosrun ffha ffha -o domain.pddl -f problems/p01.pddl
 
 3. play around with the domains, modify them, create new problem instances, etc.
