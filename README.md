@@ -7,7 +7,7 @@ to run the planners do:
 
 1. Install ff famous planner
 
-        sudo apt-get install ros-kinetic-ffha
+        sudo apt-get install ros-noetic-ffha
 
 2. make a plan:
 
