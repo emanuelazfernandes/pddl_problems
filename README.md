@@ -9,9 +9,9 @@ to run the planners do:
 
         sudo apt-get install ros-noetic-ffha
 
-2. make a plan:
+2. Make a plan:
 
         cd drone_delivery
         rosrun ffha ffha -o domain.pddl -f problems/p01.pddl
 
-3. play around with the domains, modify them, create new problem instances, etc.
+3. Play around with the domains, modify them, create new problem instances and expand the domain scope, etc.
