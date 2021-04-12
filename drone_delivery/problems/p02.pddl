@@ -1,15 +1,22 @@
-; this problem definition was automatically generated from rosplan interface
-(define (problem cleaning_robot_task)
-(:domain cleaning_robot)
-(:objects
+(define (problem p01)
+
+  (:domain drone_delivery)
+
+  (:objects
     locA locB - location
-    ghost - robot
+    pkg1 pkg2 - package
+  )
+
+  (:init 
+    (robot_at locA)
+    (pkg_at pkg1 locB)
+    (not (flying))
+    (not (ok_preflight_check))
+    (not (robot_is_full))
+  ) 
+
+  (:goal
+    (and (pkg_at pkg1 locA)
+    )
+  )
 )
-(:init
-    (at ghost locA)
-)
-(:goal (and
-    (clean locA)
-    (clean locB)
-    (at ghost locA)
-)))
