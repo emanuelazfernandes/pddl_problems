@@ -8,6 +8,6 @@ PDDL domain and problem files for delivery drone scenario
 todo
 
 ## License
-
-* Authors: Oscar Lima, olima_84@yahoo.com
+Authors: 
+* Oscar Lima, olima_84@yahoo.com
 * Emanuel Fernandes, emanuel.a.fernandes@tecnico.ulisboa.pt
