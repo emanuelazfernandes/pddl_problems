@@ -5,7 +5,7 @@ PDDL domain and problem files for delivery drone scenario
 
 ## Description
 
-todo
+Delivery drone pddl domain and scenarios for Master thesis work.
 
 ## License
 Authors: 
