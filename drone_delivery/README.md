@@ -9,5 +9,5 @@ todo
 
 ## License
 
-Authors: Oscar Lima, olima_84@yahoo.com
-Emanuel Fernandes, emanuel.a.fernandes@tecnico.ulisboa.pt
+* Authors: Oscar Lima, olima_84@yahoo.com
+* Emanuel Fernandes, emanuel.a.fernandes@tecnico.ulisboa.pt
