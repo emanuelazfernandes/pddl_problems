@@ -3,20 +3,22 @@
   (:domain drone_delivery)
 
   (:objects
-    locA locB - location
-    pkg1 pkg2 - package
+    ;Porto Bragança Coimbra Guarda Lisboa Evora Lagos Faro - location
+    Porto Lisboa Faro - location
+    pkg1 pkg2 pkg3 - package
   )
 
-  (:init 
-    (robot_at locA)
-    (pkg_at pkg1 locB)
-    (not (flying))
-    (not (ok_preflight_check))
-    (not (robot_is_full))
-  ) 
+  (:init
+    (robot_at Porto)
+    (pkg_at pkg1 Porto)
+    (pkg_at pkg2 Porto)
+    (pkg_at pkg3 Faro)
+  )
 
   (:goal
-    (and (pkg_at pkg1 locA)
+    (and (pkg_at pkg1 Lisboa)
+         ;(pkg_at pkg2 Lisboa)
+         ;(pkg_at pkg3 Lisboa)
     )
   )
 )
