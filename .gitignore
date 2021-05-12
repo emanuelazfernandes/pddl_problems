@@ -1,3 +1,4 @@
 #ignoring output of the planners
 *.plan
 solutions/
+*.kb

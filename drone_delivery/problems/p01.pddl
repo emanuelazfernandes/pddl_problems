@@ -8,7 +8,7 @@
   )
 
   (:init 
-    (robot_at Lisboa)
+    (robot_at Porto)
     (pkg_at pkg1 Lisboa)
     (pkg_at pkg2 Lisboa)
   )
